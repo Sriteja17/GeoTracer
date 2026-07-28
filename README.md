@@ -1,4 +1,4 @@
-# GeoTracer
+# 🌍GeoTracer
 
 **GeoTrace** is an AI-powered geospatial intelligence system that extracts location information from images, analyzes movement patterns, identifies frequently visited locations, and presents the results through an interactive dashboard.
 
@@ -23,7 +23,7 @@ The project demonstrates a complete end-to-end geospatial intelligence pipeline 
 
 ---
 
-## Features
+## ✨Features
 
 - Extract GPS coordinates and timestamps from image EXIF metadata
 - Fallback location estimation using Computer Vision when EXIF data is unavailable
@@ -46,7 +46,7 @@ The project demonstrates a complete end-to-end geospatial intelligence pipeline 
 
 ---
 
-## Project Pipeline
+## 🔄Project Pipeline
 
 ```
 Images
@@ -66,7 +66,7 @@ Interactive Dashboard
 
 ---
 
-## System Architecture
+## 🏗️System Architecture
 
 ```
                     Images
@@ -101,7 +101,7 @@ Interactive Dashboard
 
 ---
 
-## Technologies Used
+## 🛠️Technologies Used
 
 | Category | Tools / Libraries |
 |---|---|
@@ -114,7 +114,7 @@ Interactive Dashboard
 
 ---
 
-## Folder Structure
+## 📁Folder Structure
 
 ```
 GeoTrace/
@@ -150,9 +150,9 @@ GeoTrace/
 
 ---
 
-## Module Overview
+## 🧩Module Overview
 
-### 1. Metadata Preprocessing
+### 1️⃣ Metadata Preprocessing
 
 Responsible for extracting location information from input images.
 
@@ -166,7 +166,7 @@ Responsible for extracting location information from input images.
 
 **Output:** `output_data.json`
 
-### 2. Clustering
+### 2️⃣ Clustering
 
 Processes extracted GPS coordinates using DBSCAN.
 
@@ -178,7 +178,7 @@ Processes extracted GPS coordinates using DBSCAN.
 
 **Outputs:** `clusters.json`, `points_with_clusters.json`
 
-### 3. Movement Analysis
+### 3️⃣ Movement Analysis
 
 Generates movement intelligence from clustered locations.
 
@@ -193,7 +193,7 @@ Generates movement intelligence from clustered locations.
 
 **Output:** `intelligence.json`
 
-### 4. Dashboard
+### 4️⃣ Dashboard
 
 Visualizes the complete intelligence report.
 
@@ -208,7 +208,7 @@ Visualizes the complete intelligence report.
 
 ---
 
-## Data Flow
+## 🔀Data Flow
 
 ```
 Images
@@ -240,22 +240,22 @@ Dashboard
 
 ---
 
-## How to Run
+## 🚀How to Run
 
-### 1. Clone the Repository
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/GeoTrace.git
 cd GeoTrace
 ```
 
-### 2. Install Dependencies
+### 2️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Add Images
+### 3️⃣ Add Images
 
 Place all images you want to analyze inside the `images/` folder.
 
@@ -271,7 +271,7 @@ The images may contain:
 - Timestamp metadata
 - Or neither (Vision API fallback will be used)
 
-### 4. Run the Entire Pipeline
+### 4️⃣ Run the Entire Pipeline
 
 ```bash
 python app.py
@@ -283,7 +283,7 @@ The application automatically executes every stage in sequence:
 Images → Metadata Extraction → SQLite Database → DBSCAN Clustering → Movement Analysis → Dashboard Generation
 ```
 
-### 5. Run Individual Modules (Optional)
+### 5️⃣ Run Individual Modules (Optional)
 
 If you'd rather execute each stage independently:
 
@@ -307,7 +307,7 @@ python "Movement Analysis/member3_movement.py"
 python Dashboard/member4_dashboard.py
 ```
 
-### 6. View the Dashboard
+### 6️⃣ View the Dashboard
 
 Open `Dashboard/dashboard.html` in your preferred web browser. The dashboard provides:
 - Interactive movement map
@@ -319,7 +319,7 @@ Open `Dashboard/dashboard.html` in your preferred web browser. The dashboard pro
 
 ---
 
-## Outputs Generated
+## 📦Outputs Generated
 
 | File | Description |
 |---|---|
@@ -333,7 +333,7 @@ Open `Dashboard/dashboard.html` in your preferred web browser. The dashboard pro
 
 ---
 
-## Future Improvements
+## 🔮Future Improvements
 
 - Real-time GPS tracking
 - Live dashboard updates
@@ -348,7 +348,7 @@ Open `Dashboard/dashboard.html` in your preferred web browser. The dashboard pro
 
 ---
 
-## Team Contributions
+## 👥Team Contributions
 
 **Metadata Preprocessing**
 - Image metadata extraction
@@ -379,6 +379,6 @@ Open `Dashboard/dashboard.html` in your preferred web browser. The dashboard pro
 
 ---
 
-## License
+## 📄License
 
 This project is developed for educational and research purposes.
