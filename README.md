@@ -376,6 +376,8 @@ Open `Dashboard/dashboard.html` in your preferred web browser. The dashboard pro
 **Contributors**
 - [Anirudh Chavali](https://github.com/anirudh110106)
 - [Bommalakunta Anish Kumar](https://github.com/Anish1817)
+- [Kodam Sriteja](https://github.com/Sriteja17)
+- [Shaik Yunis](https://github.com/Yunis147)
 
 ---
 
