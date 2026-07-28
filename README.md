@@ -1,4 +1,4 @@
-# GeoTrace
+# GeoTracer
 
 **GeoTrace** is an AI-powered geospatial intelligence system that extracts location information from images, analyzes movement patterns, identifies frequently visited locations, and presents the results through an interactive dashboard.
 
