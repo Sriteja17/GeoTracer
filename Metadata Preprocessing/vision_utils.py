@@ -1,7 +1,7 @@
 import requests
 import base64
 
-API_KEY = "AIzaSyCvZmoPW6wb1x0O-ZrhLOOMLMLsLJswUCU"
+API_KEY = "(Paste Your google vision api key here )"
 
 VISION_URL = f"https://vision.googleapis.com/v1/images:annotate?key={API_KEY}"
 
