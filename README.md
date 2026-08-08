@@ -34,7 +34,7 @@ The project demonstrates a complete end-to-end geospatial intelligence pipeline 
   - Total travel distance
   - Movement speed
   - Dwell time
-  - Time-of-day activity
+  - Time of day activity
   - Movement corridors
   - Behavioral classification
 - Generate an interactive dashboard with:
